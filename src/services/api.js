@@ -40,7 +40,6 @@ export const getUser = (userId) => {
   return getDoc(doc(db, 'users', userId));
 };
 
-
 // --- SALOON & BARBER FUNCTIONS ---
 
 /**
